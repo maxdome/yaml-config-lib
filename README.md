@@ -4,12 +4,12 @@
 [![devDependency Status](https://david-dm.org/maxdome/yaml-config-lib/dev-status.svg)](https://david-dm.org/maxdome/yaml-config-lib#info=devDependencies)
 
 # Install
-Run ```npm i yaml-config-lib --save```
+Run ```npm i mxd-yaml-config-lib --save```
 
 # Example
 ```javascript
 const directory = __dirname + '/../config';
-const config = require('yaml-config-lib')([
+const config = require('mxd-yaml-config-lib')([
   directory + '/all.yml',                                             // Global default config
   directory + '/' + (process.env.NODE_ENV || 'development') + '.yml', // Environment default config
   directory + '/local.yml'                                            // Config for the current instance

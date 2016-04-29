@@ -3,7 +3,7 @@
 
 const assert = require('assert');
 
-describe('yaml-config-lib', function () {
+describe('mxd-yaml-config-lib', function () {
   const lib = require('../src/lib.js');
   const directory = __dirname + '/config';
 

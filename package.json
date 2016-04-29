@@ -1,5 +1,5 @@
 {
-  "name": "yaml-config-lib",
+  "name": "mxd-yaml-config-lib",
   "description": "Loads the given and existing .yml files",
   "version": "1.0.0",
   "homepage": "http://github.com/maxdome/yaml-config-lib",
