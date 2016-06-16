@@ -2,7 +2,7 @@
 
 const YAML = require('yamljs');
 
-module.exports = function (paths) {
+module.exports = paths => {
   const parameters = [{}];
   for (const path of paths) {
     try {
